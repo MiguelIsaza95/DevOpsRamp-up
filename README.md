@@ -4,7 +4,7 @@
 
 DevOps has a wide variety of practices, tools, and methodologies, which enable it to be an important part of an _agile delivery culture_.
 
-This ramp-up is presented as a **series of challenges**. Each challenge is chosen to show beginners the basics of some of the DevOps practices, and it is designed to help us use the same language after its completion. We are tool agnostics, so you can use any tool you like, but we do have a client base that need us to be proficient in some basic AWS concepts.
+This ramp-up is presented as a **series of challenges**. Each challenge is chosen to show beginners the basics of some of the DevOps practices, and it is designed to help us use the same language after its completion. We are tool agnostics, so you can use any tool you like, but we do have a client base that need us to be proficient in some basic AWS or GCP concepts.
 
 
 
@@ -29,9 +29,9 @@ The objective of this challenge is to set up [git-flow](http://nvie.com/posts/a-
 
 - Clone these repositories (if you are using Windows, install [Git for Windows](https://git-scm.com/download/win "Git for Windows") in case you haven't already...).
 
-`git clone https://github.com/juan-ruiz/movie-analyst-api.git`
+`git clone https://github.com/dossas95/movie-analyst-api.git`
 
-`git clone https://github.com/juan-ruiz/movie-analyst-ui.git`
+`git clone https://github.com/dossas95/movie-analyst-ui.git`
 
 - Define a branching strategy that complies to GitFlow, and create the necessary branches (such as `develop`) on each repo
 
@@ -39,18 +39,10 @@ The objective of this challenge is to set up [git-flow](http://nvie.com/posts/a-
 
 - Provide a diagram of your branching strategy
 
----
-Porpuesta: Vagrant para virtualización y que ahí se desarrolle CM
-
----
-### **2. AWS Basics**
+### **2. AWS/GCP Basics**
 
 The objective of this challenge is to set up the environments on which the application will run.
 To complete this challenge, create the environments to run the application you cloned in the last challenge.
-
-![alt text][logo]
-
-[logo]:https://bitbucket.endava.com/projects/BD/repos/devops-rampup/raw/AWSSetup1.png?at=refs%2Fheads%2Fmaster "First SetUp"
 
 Steps:
  - Create an AWS account
@@ -59,8 +51,7 @@ Steps:
  - Create route tables.
  - Setup a connection to internet (Internet Gateway and NAT).
  - Create ACL and SG's (Security).
- - Setup EC2 instances.
- - Create auto scaling groups
+ - Setup instance.
  - Create a load balancer
 
 ---
